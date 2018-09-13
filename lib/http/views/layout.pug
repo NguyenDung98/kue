@@ -10,10 +10,12 @@ html
         script(src='./javascripts/loading.js')
         script(src='./javascripts/job.js')
         script(src='./javascripts/search.js')
+        script(src='./javascripts/remove.js')
         script(src='./javascripts/main.js')
     body
         include _menu
         #actions
+            include _remove
             include _search
             include _filter
             include _sort
