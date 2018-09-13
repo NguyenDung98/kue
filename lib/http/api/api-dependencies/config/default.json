@@ -1,0 +1,18 @@
+{
+	"server": {
+		"alias": "JOB_QUEUE_API",
+		"domain": "http://localhost",
+		"route_base": "",
+		"port": "4101",
+		"secret": ""
+	},
+	"redis": {
+		"prefix": "",
+		"port": "6379",
+		"host": "localhost",
+		"password": ""
+	},
+	"queue": {
+		"ENABLE_SEARCH": true
+	}
+}

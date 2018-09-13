@@ -54,7 +54,5 @@
   "scripts": {
     "test": "make test-all"
   },
-  "optionalDependencies": {
-    "reds": "^0.2.5"
-  }
+  "optionalDependencies": {}
 }
